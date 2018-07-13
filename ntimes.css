@@ -1,0 +1,61 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+.wrapper {
+	height: 100%;
+	/*overflow: hidden; */
+}
+.full-height{height: 100vh;}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.page {
+	width: 50%;
+	height: 100%;
+   
+}
+.section-1 {
+    width: 50%;
+    background: #ffffff;
+
+}
+
+.hidden{
+    display:none;
+}
+.scroll{
+    overflow-y:scroll;
+}
+.section-2 {
+    position: relative;
+    display: inline-block;
+    background: #3498db;
+    background-repeat: no-repeat;
+background-size: cover;
+    background-image: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/46_Abandoned_Diving_Area-2000.jpg");
+}
+.section-3 {
+    position: relative;
+    display: inline-block;
+    background: #3498db;
+    background-repeat: no-repeat;
+background-size: cover;
+    background-image: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/09_Couple_on_Rock-2000.jpg");
+}
+.section-5 {
+    width: 100%;
+background-image: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/71_Pool_buds-2000.jpg");
+}
+.section-6 {
+    width: 100%;
+background-image: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/52_Golf_in_Mist-2000.jpg");
+}
+.main_text_window {
+    background-image: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/09_Couple_on_Rock-2000.jpg");
+}

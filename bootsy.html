@@ -13,7 +13,7 @@
     <title>Scenes Unseen: The Summer of ’78 - The New York Times</title>
 </head>
 
-<body>
+<body class="bootsy-page">
     <header>
         <div class="logo">
                 <svg 
@@ -37,21 +37,37 @@
                           </svg>
         </div>
     </header>
-    <div class="d-flex bd-highlight fullheight">
-    
-            <div class="align-self-center p-2 bd-highlight">
-                    <h1>Scenes Unseen: The Summer of ’78</h1>
-                    <p class="text-area txt-1">1Long-forgotten pictures capture escape and discovery in the city’s parks.</p>
-                    <p class="text-area txt-2 hided">2222222.</p>
-                    <p class="text-area txt-3 hided">33333.</p>
-                
-                    <p class="text-area txt-3 hided">444444444.</p>
-                    
-                    <h5><b>By JIM DWYER</b>&nbsp;&nbsp;APRIL 27, 2018</h5>
-                    <button id="ok-button">tap to continue</button>
+   <main class="fullheight dark-background">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active flex-column">
+            <img class="d-block w-100" src="img/0.jpg" data-image alt="First slide">
+            <div class="carousel-caption sld">
+                <h1>Scenes Unseen: The Summer of ’78</h1>
+                <p class="text-area txt-1">Long-forgotten pictures capture escape and discovery in the city’s parks.</p>
+                <h5><b>By JIM DWYER</b>&nbsp;&nbsp;APRIL 27, 2018</h5>
             </div>
-            
           </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/no-image.jpg" data-image alt="First slide">
+            <div class="carousel-caption sld">
+
+                <p class="text-area txt-1">Six month ago, a conservancy official cleaning out an office came across two cardboard boxes that had been sitting around for decades</p>
+                <h5><b>By JIM DWYER</b>&nbsp;&nbsp;APRIL 27, 2018</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/2.jpg" data-image alt="Third slide">
+          </div>
+        </div>
+       
+      </div>
+   </main>
 
 
 <!--    <div class="d-flex align-self-center flex-column">
@@ -60,7 +76,7 @@
         <h5><b>By JIM DWYER</b>&nbsp;&nbsp;APRIL 27, 2018</h5>
         <button>tap to continue</button>
     </div> -->
-</div>
+
 
 
 
@@ -78,7 +94,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
         crossorigin="anonymous"></script>
-    <script src="mobile.js"></script>
+    <script src="bootsy.js"></script>
 </body>
 
 </html>

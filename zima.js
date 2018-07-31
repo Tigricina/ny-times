@@ -1,4 +1,4 @@
-var arr = ['зима', 'весна', 'лето', 'осень'];
+var arr = ['1', '2', '3', '4'];
 	iterator = arr.keys();
 document.querySelector("input").addEventListener("click", function () {
 	var next = iterator.next().value;

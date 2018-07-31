@@ -4,12 +4,13 @@
 .logo>svg {
     fill:white
 }
-body {
-    background: url("https://static01.nyt.com/newsgraphics/2018/04/17/nyc-parks-photos/assets/images/46_Abandoned_Diving_Area-2000.jpg") no-repeat center center fixed; 
+body:not(.bootsy-page) {
+    background: no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.85);
   }
 h1 {
     font-family: nyt-cheltenham,georgia,times new roman,times,serif;
@@ -24,4 +25,38 @@ h5 {
     margin-top: 19px!important;
     -webkit-margin-before: 19px;
     -webkit-margin-after: 0;
+}
+
+.hided{
+    display:none;
+}
+header{
+    position: absolute;
+    z-index: 99999;
+}
+.sld{
+
+top: 50%;
+    position: absolute;
+    right: 9%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.dark-background {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.carousel-item > [data-image]{
+    /* background-image: url(img/no-image.jpg)  */
+    background-color: transparent;
+    background: no-repeat center center fixed; 
+}
+
+.carousel-inner.FIT-TO-SCREEN{
+    MIN-HEIGHT: 100VH;
+    MAX-HEIGHT: 100VH;
 }
